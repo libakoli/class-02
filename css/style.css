@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.menu-bar{
+    text-align: center;
+    background-color: steelblue;
+    height: 60px;
+    line-height: 60px;
+}
+.menu-bar ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.menu-bar ul li a{
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0px 10px;
+    transition: 0.5s;
+    
+}
+.menu-bar ul li a:hover{
+    color:greenyellow;
+    transition: 0.5s;
+}
+.banner h1{
+    font-size: 52px;
+    text-align: center;
+    color: tomato;
+    padding-top: 50px;
+}
+
+/* banner section css here */
+ .banner{
+    background-image: url(../img/banner.jpg);
+    width: 100%;
+    height: 180vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+} 
+/* registrtion form css here */
+.contact{
+    width: 50%;
+    margin: 80px auto;
+    margin-left: 600px;
+
+}
+.form{
+    width: 100%;
+    text-align: center;
+}
+.form-body h2{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.form-body{
+    background:rgba(0, 127, 38, 0.8);
+    padding: 50px 0;
+    border-radius: 10px;
+    text-align: center;
+}
+.form-body input{
+    width: 50%;
+    margin-top: 10px;
+    padding: 15px 80px;
+    margin: 16px 0px;
+    border: 2px solid wheat;
+    border-radius: 5px;
+    background: transparent;
+}
+
+
+.social-icon{
+    text-align: center;
+    position: fixed;
+    top: 100px;
+    left: 0px;
+    z-index: 999999;
+}
+.social-icon ul li{
+  /* display: inline-block; */
+}
+.social-icon ul li a i{
+    font-size: 25px;
+    height: 60px;
+    width: 60px;
+    background: tomato;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 60px;
+    color: white;
+    margin-top: 10px;
+    transition: 0.5s ease-in-out;
+}
+.social-icon ul li a i:hover{
+    background-color: green;
+    transition: 0.5s ease-in-out;
+    transform: scale(1.2);
+}
+
+/* position css property */
+.position{
+    margin-top: 20px;
+}
+.box{
+    height: 300px;
+    width: 500px;
+    background-color: green;
+    margin: 0 auto;
+    position: relative;
+}
+.circle{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background: red;
+    border-radius: 100%;
+    top:90px;
+    left: 180px;
+   
+}
+/* comment property css here */
+.outer-box{
+    height: 300px;
+    width: 500px;
+    background: #00AFEE;
+    position: relative;
+    top: -25px;
+    left: 200px;
+}
+.outer-box p {
+    padding: 60px 30px;
+    font-size: 18px;
+    color: whitesmoke;
+}
+.round{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    background: orangered;
+    top: -30px;
+    left: 230px;
+    border-radius: 100%;
+}
+.inner-box{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background: #00AFEE;
+    bottom: -20px;
+    left: 50px;
+    transform: rotate(45deg);
+}
